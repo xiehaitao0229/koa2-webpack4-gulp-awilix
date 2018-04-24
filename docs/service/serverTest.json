@@ -1,0 +1,98 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2018-04-24T05:02:08.168Z",
+    "end": "2018-04-24T05:02:08.269Z",
+    "duration": 101,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "85e65ea0-1222-4d62-b001-d3dda583554b",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "66ac24d1-7151-4849-ae43-05d259260e9c",
+        "title": "node 自动化测试",
+        "fullFile": "C:\\Users\\a2297\\Desktop\\ssr_xiehaitao\\tests\\service\\router.spec.js",
+        "file": "\\tests\\service\\router.spec.js",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [],
+        "suites": [
+          {
+            "uuid": "74f76716-8597-4073-991f-341ecc041f0a",
+            "title": "node容错处理",
+            "fullFile": "C:\\Users\\a2297\\Desktop\\ssr_xiehaitao\\tests\\service\\router.spec.js",
+            "file": "\\tests\\service\\router.spec.js",
+            "beforeHooks": [],
+            "afterHooks": [],
+            "tests": [
+              {
+                "title": "获取测试404数据",
+                "fullTitle": "node 自动化测试 node容错处理 获取测试404数据",
+                "timedOut": false,
+                "duration": 85,
+                "state": "passed",
+                "speed": "slow",
+                "pass": true,
+                "fail": false,
+                "pending": false,
+                "code": "request()\n.get('/message/notfound')\n.expect(404,done);",
+                "err": {},
+                "isRoot": false,
+                "uuid": "cd605e1a-0f57-497e-a390-2bc020406ef2",
+                "isHook": false,
+                "skipped": false
+              }
+            ],
+            "suites": [],
+            "passes": [
+              "cd605e1a-0f57-497e-a390-2bc020406ef2"
+            ],
+            "failures": [],
+            "pending": [],
+            "skipped": [],
+            "duration": 85,
+            "root": false,
+            "rootEmpty": false,
+            "_timeout": 2000
+          }
+        ],
+        "passes": [],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 0,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2018
+}

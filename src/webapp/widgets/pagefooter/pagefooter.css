@@ -1,0 +1,22 @@
+/* .widgets-topbanner{
+	height: 40px;
+	background: yellowgreen;
+	text-align: center;
+}
+.widgets-topbanner h1{
+	text-align: center;
+} */
+
+
+/* .widgets-topbanner{*/
+	:root{
+		--height: 40px;
+	}
+	height: var(--height);
+	background: yellowgreen;
+	text-align: center;
+/* } */
+.widgets-topbanner h1{
+	text-align: center;
+} 
+

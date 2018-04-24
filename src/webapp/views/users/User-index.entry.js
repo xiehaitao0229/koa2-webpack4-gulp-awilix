@@ -1,0 +1,1 @@
+import topbanner from '../../widgets/topbanner/topbanner.js'

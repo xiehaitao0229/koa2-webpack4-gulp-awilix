@@ -1,0 +1,1 @@
+import pagefooter from '../../widgets/pagefooter/pagefooter.js'
